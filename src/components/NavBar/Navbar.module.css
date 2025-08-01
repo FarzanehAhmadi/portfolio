@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 16px;
+  height: 60px;
+  position: relative;
+}
+
+.logo {
+  margin-top: 20px;
+  height: 8rem;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* Default nav list (horizontal on desktop) */
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.navList li a {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.navList li a:hover {
+  color: #5c0d4c;
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .logo {
+    height: 5rem;
+    margin-top: 5px;
+  }
+  .navList {
+    flex-direction: column;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+  }
+
+  .navList.open {
+    max-height: 600px;
+    opacity: 1;
+  }
+}
