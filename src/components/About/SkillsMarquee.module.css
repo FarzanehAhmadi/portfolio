@@ -1,0 +1,31 @@
+/* components/SkillsMarquee.module.css */
+
+.marqueeWrapper {
+  margin-top: 10px;
+  width: 100%;
+  overflow: hidden;
+  border-top: none;
+  border-bottom: none;
+  background-color: #f9f9f9;
+  padding: 0.5rem 0;
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-right 60s linear infinite;
+}
+
+.marquee span {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

@@ -1,0 +1,20 @@
+.skillsRow {
+  display: flex;
+  justify-content: center; /* or space-around, space-evenly */
+  align-items: center;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 1.5rem; /* space between each skill */
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  background-color: #f9f9f9; /* light background for contrast */
+}
+
+.skill {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.skill:hover {
+  color: #8e44ad; /* purple highlight on hover */
+}
