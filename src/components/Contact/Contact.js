@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Contact.module.css";
+import contactImage from "../../assets/images/contact.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -39,47 +40,67 @@ const Contact = () => {
 
   return (
     <section className={styles.contact} id="contact">
-      <h2>Contact Me</h2>
-      <p>
-        You can also reach me at:{" "}
-        <a href="mailto:f_ahmadi74@yahoo.com">f_ahmadi74@yahoo.com</a>
-      </p>
+      <h2 className={styles.title}>Contact Me</h2>
 
-      <form className={styles.contactForm} onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Your Name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Your Email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <textarea
-          name="message"
-          placeholder="Your Message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <div className={styles.contactFrame}>
+        <div className={styles.formSection}>
+          <form className={styles.contactForm} onSubmit={handleSubmit}>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+            ></textarea>
+            <button type="submit" className={styles.button}>
+              Send Message
+            </button>
+          </form>
 
-      {status === "SUCCESS" && (
-        <p className={styles.success}>Thanks! Your message has been sent.</p>
-      )}
-      {status === "ERROR" && (
-        <p className={styles.error}>
-          Oops! Something went wrong. Please try again.
-        </p>
-      )}
+          {status === "SUCCESS" && (
+            <p className={styles.success}>
+              Thanks! Your message has been sent.
+            </p>
+          )}
+          {status === "ERROR" && (
+            <p className={styles.error}>
+              Oops! Something went wrong. Please try again.
+            </p>
+          )}
+          <p>OR</p>
+          <button
+            className={styles.button}
+            onClick={() =>
+              (window.location.href = "mailto:f_ahmadi74@yahoo.com")
+            }
+          >
+            Email Me
+          </button>
+        </div>
+        <div className={styles.imageSection}>
+          <img
+            src={contactImage}
+            alt="Contact illustration"
+            className={styles.contactImage}
+          />
+        </div>
+      </div>
     </section>
   );
 };
