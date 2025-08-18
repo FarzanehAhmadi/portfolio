@@ -1,33 +1,56 @@
+import tantakuyImg from "../assets/projects/tantakuy.png";
+import movieDiaryImg from "../assets/projects/Movie.png";
+import mealSharingImg from "../assets/projects/meal.png";
+import memoryGameImg from "../assets/projects/memory.png";
+import adviceImg from "../assets/projects/advice.png";
+import rpsImg from "../assets/projects/rps.png";
+
 const projects = [
   {
-    id: 1,
-    title: "Portfolio Website",
-    description: "A personal portfolio built with React and CSS Modules.",
-    image:
-      "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-    link: "https://github.com/yourusername/portfolio",
-    demo: "htht",
-    github: "htht",
+    title: "Tantakuy",
+    description:
+      "Web platform for image competitions. Companies create contests; participants submit and vote. Uses Amazon S3.",
+    image: tantakuyImg,
+    demo: "https://tantakuy-hyf.vercel.app/",
+    github: "https://github.com/Lupescua/tantakuy-hyf",
   },
   {
-    id: 2,
-    title: "E-commerce App",
-    description: "A full-stack e-commerce application with Node.js and React.",
-    image:
-      "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-    link: "https://github.com/yourusername/ecommerce",
-    demo: "htht",
-    github: "htht",
+    title: "Movie Diary",
+    description:
+      "Search movies via TMDB API, view details and trailers, comment, and save favorites.",
+    image: movieDiaryImg,
+    demo: "https://react-project-2025-ecru.vercel.app/",
+    github: "https://github.com/unik24/React-Project-2025",
   },
   {
-    id: 3,
-    title: "Chat App",
-    description: "A real-time chat application using Socket.io and React.",
-    image:
-      "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
-    link: "https://github.com/yourusername/chat-app",
-    demo: "htht",
-    github: "htht",
+    title: "Meal Sharing",
+    description:
+      "Web app with Node.js backend, React/Next.js frontend, MySQL DB, and Material UI design.",
+    image: mealSharingImg,
+    github: "https://github.com/FarzanehAhmadi/meal-sharing",
+  },
+  {
+    title: "Memory Game",
+    description:
+      "Memory card game built with HTML, CSS, JavaScript, deployed on GitHub.",
+    image: memoryGameImg,
+    demo: "https://farzanehahmadi.github.io/HYF-Memory-Game/",
+    github: "https://github.com/FarzanehAhmadi/HYF-Memory-Game",
+  },
+  {
+    title: "Rock Paper Scissors",
+    description:
+      "Classic ROCK, PAPER, SCISSORS game in the browser using JavaScript.",
+    image: rpsImg,
+    demo: "https://rock-paper-scissors-demo-url.com",
+    github: "https://github.com/yourusername/rock-paper-scissors",
+  },
+  {
+    title: "Advice Generator",
+    description: "Fetch and display random advice dynamically from an API.",
+    image: adviceImg,
+    demo: "https://farzanehahmadi.github.io/Advice-Generator-App/",
+    github: "https://github.com/FarzanehAhmadi/Advice-Generator-App",
   },
 ];
 
