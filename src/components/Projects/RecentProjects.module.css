@@ -1,9 +1,9 @@
 .recent-projects {
   display: flex;
-  gap: 20px; /* space between project cards */
-  justify-content: center; /* center the cards horizontally */
-  flex-wrap: wrap; /* wrap to next line on smaller screens */
-  padding: 20px 0; /* vertical padding for the section */
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
 }
 .recent-projects-section {
   padding: 40px 20px;
@@ -28,12 +28,16 @@
   padding: 10px 20px;
   background-color: #000000;
   color: white;
+  border: none;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  font-family: inherit;
+  cursor: pointer;
   transition: background-color 0.3s;
+  text-align: center;
 }
 
 .showMore:hover {
-  background-color: #350131;
+  background-color: #5c0d4c;
 }
