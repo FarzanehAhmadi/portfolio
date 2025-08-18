@@ -1,0 +1,39 @@
+.recent-projects {
+  display: flex;
+  gap: 20px; /* space between project cards */
+  justify-content: center; /* center the cards horizontally */
+  flex-wrap: wrap; /* wrap to next line on smaller screens */
+  padding: 20px 0; /* vertical padding for the section */
+}
+.recent-projects-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.recent-projects {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.showMore {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.showMore:hover {
+  background-color: #350131;
+}

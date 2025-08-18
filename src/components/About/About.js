@@ -8,7 +8,7 @@ import Skills from "./Skills";
 
 const About = () => {
   return (
-    <section className={styles.aboutSection}>
+    <section className={styles.aboutSection} id="about">
       <div className={styles.container}>
         <img
           src={profileImage}
