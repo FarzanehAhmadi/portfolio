@@ -1,0 +1,29 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.socials {
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.name {
+  font-weight: bold;
+  color: #5c0d4c;
+}

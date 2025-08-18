@@ -4,25 +4,29 @@ import About from "./components/About/About";
 import Navbar from "./components/NavBar/Navbar";
 import RecentProjects from "./components/Projects/RecentProjects";
 import Contact from "./components/Contact/Contact";
-// import ProjectsPage from "./components/Projects/ProjectsPage"; // create this
+import Footer from "./components/Footer/Footer";
+import ProjectsPage from "./components/Projects/ProjectsPage";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <About />
-              <RecentProjects />
-              <Contact />
-            </>
-          }
-        />
-        {/* <Route path="/projects" element={<ProjectsPage />} /> */}
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <About />
+                <RecentProjects />
+                <Contact />
+              </>
+            }
+          />
+          <Route path="/projects" element={<ProjectsPage />} />
+        </Routes>
+      </div>
+      <Footer />
     </div>
   );
 }

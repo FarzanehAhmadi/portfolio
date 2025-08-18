@@ -6,6 +6,8 @@ const projects = [
     image:
       "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
     link: "https://github.com/yourusername/portfolio",
+    demo: "htht",
+    github: "htht",
   },
   {
     id: 2,
@@ -14,6 +16,8 @@ const projects = [
     image:
       "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
     link: "https://github.com/yourusername/ecommerce",
+    demo: "htht",
+    github: "htht",
   },
   {
     id: 3,
@@ -22,6 +26,8 @@ const projects = [
     image:
       "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
     link: "https://github.com/yourusername/chat-app",
+    demo: "htht",
+    github: "htht",
   },
 ];
 
