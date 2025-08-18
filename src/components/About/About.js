@@ -25,8 +25,8 @@ const About = () => {
             <br />
             <br />
             Want to know more? You can find me on LinkedIn and GitHub, or
-            explore the Projects and Blog sections to see what I’ve been working
-            on and learning lately:)
+            explore the Projects section to see what I’ve been working on and
+            learning lately:)
           </p>
           <div className={styles.socialLinks}>
             <a href="https://www.linkedin.com/in/farzanehahmadi/">
