@@ -21,12 +21,12 @@ const About = () => {
             Full-stack developer with a background in computer science and
             cryptography. My work lives where creativity meets logic from
             building apps people enjoy using, to diving into the math behind
-            zero-knowledge proofs!
+            cryptography!
             <br />
             <br />
             Want to know more? You can find me on LinkedIn and GitHub, or
             explore the Projects section to see what I’ve been working on and
-            learning lately:)
+            learning lately :)
           </p>
           <div className={styles.socialLinks}>
             <a href="https://www.linkedin.com/in/farzanehahmadi/">

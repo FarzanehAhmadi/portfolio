@@ -7,7 +7,7 @@ const RecentProjects = () => {
   const recentProjects = projects.slice(0, 3);
   return (
     <div className={styles["recent-projects-section"]}>
-      <h2 className={styles.title}>Recent Projects</h2>
+      <h2 className={styles.title}>My Recent Projects</h2>
       <div className={styles["recent-projects"]}>
         {recentProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />

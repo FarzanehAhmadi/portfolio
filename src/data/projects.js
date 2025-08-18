@@ -9,7 +9,7 @@ const projects = [
   {
     title: "Tantakuy",
     description:
-      "Web platform for image competitions. Companies create contests; participants submit and vote. Uses Amazon S3.",
+      "Web platform for image competitions. Companies create contests; participants submit and vote.",
     image: tantakuyImg,
     demo: "https://tantakuy-hyf.vercel.app/",
     github: "https://github.com/Lupescua/tantakuy-hyf",
@@ -42,7 +42,7 @@ const projects = [
     description:
       "Classic ROCK, PAPER, SCISSORS game in the browser using JavaScript.",
     image: rpsImg,
-    demo: "https://rock-paper-scissors-demo-url.com",
+    demo: "https://game-rps-javascript.netlify.app/",
     github: "https://github.com/yourusername/rock-paper-scissors",
   },
   {
