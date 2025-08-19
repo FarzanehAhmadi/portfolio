@@ -1,7 +1,7 @@
 # 🌐 My Portfolio
 
 This is my personal portfolio website showcasing my projects, skills, and experience in web development. It’s built with modern web technologies to provide a responsive and user-friendly experience.
-[https://farzaneh-ahmadi.netlify.app/](Live version)
+[Live version](https://farzaneh-ahmadi.netlify.app/)
 ## ✨ Features
 
 - 🖥️ Responsive design (mobile-first)
