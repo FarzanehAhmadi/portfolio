@@ -42,7 +42,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-<img width="1920" height="1080" alt="Movie (1)" src="https://github.com/user-attachments/assets/dbffbd2b-68f3-4f33-9045-02f9739b3969" />
+<img width="1920" height="1080" alt="Movie (2)" src="https://github.com/user-attachments/assets/fc28da48-84c2-450f-96e3-bca467598cdc" />
 
 
 
