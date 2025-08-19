@@ -1,7 +1,7 @@
 # 🌐 My Portfolio
 
 This is my personal portfolio website showcasing my projects, skills, and experience in web development. It’s built with modern web technologies to provide a responsive and user-friendly experience.
-[Live version](https://farzaneh-ahmadi.netlify.app/)
+[Live version](https://portfolio-farzaneh.vercel.app/)
 ## ✨ Features
 
 - 🖥️ Responsive design (mobile-first)
@@ -13,7 +13,7 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 
 - **Frontend**: React.js
 - **Styling**: CSS Modules 
-- **Deployment**: Vercel / Netlify
+- **Deployment**: Vercel
 
 ## 📂 Project Structure
 
@@ -33,7 +33,7 @@ portfolio/
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/FarzanehAhmadi/portfolio.git
 cd portfolio
 npm install
 npm run dev
