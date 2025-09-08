@@ -42,8 +42,9 @@ npm run dev
 
 ## 📸 Screenshots
 
-<img width="1908" height="1029" alt="image" src="https://github.com/user-attachments/assets/253800ac-f38f-409e-ba9d-fe4c936a96db" />
-<img width="484" height="866" alt="image" src="https://github.com/user-attachments/assets/5e9fdc4c-3a84-4162-a294-ca12f43fbf77" />
+<img width="1920" height="1080" alt="Movie (2)" src="https://github.com/user-attachments/assets/fc28da48-84c2-450f-96e3-bca467598cdc" />
+
+
 
 
 ## 📜 License
