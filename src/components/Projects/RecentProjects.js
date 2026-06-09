@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 import projects from "../../data/projects";
 
 const RecentProjects = () => {
-  const recentProjects = projects.slice(0, 3);
+  const recentProjects = projects.slice(0, 4);
   return (
     <div className={styles["recent-projects-section"]}>
       <h2 className={styles.title}>My Recent Projects</h2>

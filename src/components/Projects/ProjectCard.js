@@ -19,14 +19,14 @@ const ProjectCard = ({ project }) => {
               Demo
             </a>
           )}
-          {project.github && (
+          {project.figma && (
             <a
-              href={project.github}
+              href={project.figma}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.button}
             >
-              GitHub
+              Figma
             </a>
           )}
         </div>

@@ -4,8 +4,17 @@ import mealSharingImg from "../assets/projects/meal.png";
 import memoryGameImg from "../assets/projects/memory.png";
 import adviceImg from "../assets/projects/advice.png";
 import rpsImg from "../assets/projects/rps.png";
+import theList from "../assets/projects/TheList.png";
 
 const projects = [
+  {
+    title: "The List - UI/UX project",
+    description:
+      "An AI-powered grocery app for smarter shopping lists, habit-building, and rewards.",
+    image: theList,
+    figma:
+      "https://www.figma.com/design/y7b2HfVodSLhBcpFMYWrsk/Smart-Grocery-Shopping-App-UI?node-id=43-5428&t=2qHaigWUb8p5NlSj-1",
+  },
   {
     title: "Tantakuy",
     description:
